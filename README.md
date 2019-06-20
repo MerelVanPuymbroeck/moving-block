@@ -35,5 +35,5 @@ Hi, me , Merel Van Puymbroeck o/
     }
     }
 
-![alt text](ss.png)
+![alt text](scr.png)
 
