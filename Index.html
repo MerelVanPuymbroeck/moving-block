@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Moving Block</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+      <link href="style.css" rel="stylesheet" />
+</head>
+
+<body id="body">
+<audio autoplay loop>
+    <source src="/assets/sounds/Mask.mp3" type="audio/ogg">
+    <source src="/assets/sounds/Mask.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+    <div class="container" id="container">
+        <div id="highscore">YOUR SCORE = <span id="currentHighscore"></span></div>
+        <div id="progressbar"></div>
+        <div id="square"><img class="cat" src="cat.png" alt="Angry Cat"></div>
+        <div id="food"><img class="cat" src="cake.png" alt="Cake"></div>
+        <div id="counter"></div>
+        <div id="victory">YOU WIN!</div>
+        <div id="loss">GAME OVER!</div>
+        <button id="resetBtn" type="button" class="btn btn-danger">PLAY AGAIN</button>
+    </div>
+<script src="myscripts.js"></script>
+</body>
+
+</html>
+
